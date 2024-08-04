@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+body {
+  background-color: black !important;
+}
+header {
+  background-color: #2f3d46;
+  font-family: "Quicksand", sans-serif !important;
+  color: white;
+}
+.bi {
+  font-size: 40px;
+}
+.git {
+  font-size: 25px;
+  text-align: center;
+}
+
+.side {
+  height: 500px;
+  background-color: #2f3d46;
+  border-radius: 30px;
+}
+.sider {
+  height: 500px;
+  color: white;
+
+  border-radius: 30px;
+}
+
+input{
+    border-radius: 5px;
+}
+#getDetails{
+    border-radius: 5px;
+}
+.card-img {
+  width: 75%;
+  border-radius: 50%;
+}
+img {
+  width: 90%;
+  border-radius: 50%;
+}
+
+#pro {
+  background-color: black;
+  color: #cad2c5;
+}
+
+.line {
+  color: white !important;
+}
+#visibility {
+  font-size: 15px;
+  border: 1px solid gray;
+  margin: 10px;
+  border-radius: 20px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+#propic {
+  margin: auto;
+}
+.card {
+  width: 25rem;
+
+  padding: 15px;
+}
+.card-title {
+  font-size: x-large;
+  font-weight: bolder;
+  font-family: "Quicksand", sans-serif !important;
+}
+.card-subHeading {
+  font-size: medium;
+}
+.visit {
+  background-color: #1e2224;
+  border-radius: 5px;
+  border: rgb(57, 55, 55) solid 0.5px;
+}
+.visit:hover {
+  background-color: #33383b;
+}
+
+#repo {
+  height: 800px;
+  overflow: auto;
+}
