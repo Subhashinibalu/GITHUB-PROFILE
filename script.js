@@ -47,7 +47,7 @@ async function getRepo(userName) {
   const result = await fetch(`https://api.github.com/users/${userName}/repos`);
 
   const repository = await result.json();
-  console.log(repository);
+  repo.innerHTML = "";
   for (let i = 0; i < repository.length; i++) {
     repo.innerHTML += `
      
